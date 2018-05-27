@@ -718,7 +718,7 @@ client.on('message', message => {
                        
                        });
 client.on("message", message => {
-if (message.content === "*help") {
+if (message.content === "$help") {
 message.react("✅")
 message.react("😵")
                          const embed = new Discord.RichEmbed() 
